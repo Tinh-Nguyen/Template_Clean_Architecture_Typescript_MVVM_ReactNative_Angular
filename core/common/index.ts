@@ -1,0 +1,1 @@
+export {commonModule} from "./di/commonModule"

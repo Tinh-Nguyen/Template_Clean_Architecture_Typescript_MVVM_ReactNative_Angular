@@ -1,0 +1,13 @@
+<div class="center">
+  <h2>
+    UsersList
+  </h2>
+  <button  (click)="reloadUserList()">Reload list</button>
+  <div *ngIf="(viewModel.getStateLoading()| async) == true">loading</div>
+
+  <div style="padding-top: 10px;"></div>
+  <div  *ngFor="let user of viewModel.getUserList() | async;">
+    <span>{{user.lastname}}</span> {{"  "}} <span>{{user.firtname}}</span>
+  </div>
+</div>
+
