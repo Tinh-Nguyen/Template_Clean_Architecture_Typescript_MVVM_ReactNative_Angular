@@ -1,0 +1,1 @@
+# Template_Clean_Architecture_Typescript_MVVM_ReactNative_Angular
